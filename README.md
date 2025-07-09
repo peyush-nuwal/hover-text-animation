@@ -6,7 +6,10 @@ Bring your typography to life with a smooth ripple-style hover animation on each
 
 ## 🎬 Demo
 
-<video src="https://github.com/peyush-nuwal/hover-text-animation/assets/12345678/video.mp4" controls width="100%" />
+## 🎬 Demo
+
+<video src="https://raw.githubusercontent.com/peyush-nuwal/hover-text-animation/master/public/hover-animation.mp4" controls width="100%" />
+
 
  1. **Clone the repo **
 ```bash
