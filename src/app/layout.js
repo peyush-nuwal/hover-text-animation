@@ -2,12 +2,22 @@ import {  Poppins } from "next/font/google";
 import "./globals.css";
 
 
-
 const poppins = Poppins({
   variable: "--font-poppins",
-  weight: ["400", "500", "600", "700"], // pick what you need
+  weight: [
+    "100", // Thin
+    "200", // Extra Light
+    "300", // Light
+    "400", // Regular
+    "500", // Medium
+    "600", // Semi Bold
+    "700", // Bold
+    "800", // Extra Bold
+    "900", // Black
+  ],
   subsets: ["latin"],
 });
+
 
 export const metadata = {
   title: "Create Next App",
@@ -18,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
+        className={` ${poppins.variable} antialiased`}
       >
         {children}
       </body>
